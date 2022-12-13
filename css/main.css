@@ -72,7 +72,7 @@ p {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  outline: 1px solid red;
+  width: 100vw;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -1251,13 +1251,6 @@ p {
   background-color: #2196f3;
 }
 
-.footer-subscribe {
-  max-width: 450px;
-}
-
-.footer__form {
-  width: 100%;
-}
 @media screen and (min-width: 1200px) {
   .footer__form {
     display: -webkit-box;
