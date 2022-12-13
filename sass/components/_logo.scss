@@ -1,0 +1,22 @@
+.logo {
+    font-family: $logo-font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: $accent-black-color;
+
+    transition-property: text-decoration;
+    @extend %transitions;
+
+    &:hover,
+    &:focus {
+            text-decoration: underline $accent-color;
+        }
+    &__textcolor {
+    color: $accent-color;
+}
+}
+
+
+
