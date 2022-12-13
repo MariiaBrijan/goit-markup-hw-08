@@ -42,19 +42,11 @@
 
     padding-top: 30px;
     padding-bottom: 24px;
-    padding-right: 122px;
-    padding-left: 122px;
-
-    @media screen and (min-width: 768px){
-    padding-right: 74px;
-    padding-left: 74px;
-    }
-
+  
     @media screen and (min-width: 1200px) {
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-right: 0;
-    padding-left: 0;}
+    }
 }
 
 .team__title {
