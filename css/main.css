@@ -133,8 +133,6 @@ p {
   left: 50%;
   -webkit-transform: translate(-50%, -20%) rotate(0deg) scale(1);
           transform: translate(-50%, -20%) rotate(0deg) scale(1);
-  max-width: 450px;
-  height: 609px;
   -webkit-transition-duration: 1000ms;
           transition-duration: 1000ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -160,12 +158,11 @@ p {
 }
 @media screen and (min-width: 1200px) {
   .modal {
+    width: 528px;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    width: 528px;
-    height: 581px;
   }
 }
 
@@ -217,7 +214,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 12px;
+  margin-bottom: 11px;
 }
 @media screen and (min-width: 1200px) {
   .modal__header {
@@ -237,7 +234,7 @@ p {
 
 .input-wrapper {
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 9px;
 }
 
 .modal__input {
@@ -283,7 +280,7 @@ p {
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 }
 .modal__comment::-webkit-input-placeholder {
   font-weight: 400;
@@ -329,7 +326,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -680,7 +677,6 @@ p {
 .hero {
   padding-top: 118px;
   padding-bottom: 118px;
-  max-width: 480px;
   background-color: #c4c4c4;
   margin-left: auto;
   margin-right: auto;
@@ -698,7 +694,6 @@ p {
 }
 @media screen and (min-width: 768px) {
   .hero {
-    max-width: 768px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header/img_md@1x.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header/img_md@1x.jpg);
   }
@@ -714,14 +709,14 @@ p {
     max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header/img_lg@1x.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header/img_lg@1x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header/Img_lg@1x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header/Img_lg@1x.jpg);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header/img_lg@2x.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header/img_lg@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header/Img_lg@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header/Img_lg@2x.jpg);
   }
 }
 
