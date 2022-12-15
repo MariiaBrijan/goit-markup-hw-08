@@ -59,6 +59,9 @@
     font-style: normal;
     margin-bottom: 60px;
 
+    @media screen and (min-width: 1120px) {
+    margin-bottom: 0px;}
+
     @media screen and (max-width: 1199px) {
     text-align: center;}
 }

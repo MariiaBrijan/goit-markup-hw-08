@@ -2,7 +2,6 @@
     padding-top: 118px;
     padding-bottom: 118px;
     max-width: 480px;
-    height: 400px;
 
     background-color: #c4c4c4;
     margin-left: auto;
@@ -26,7 +25,6 @@
 
      @media screen and (min-width:768px){
             max-width: 768px;
-            height: 459px;
 
             background-image: linear-gradient(to right,
                         rgba(47, 48, 58, 0.4),
@@ -45,7 +43,6 @@
 
         @media screen and (min-width:1200px) {
             max-width: 1600px;
-            height: 600px;
     
             padding-top: 200px;
             padding-bottom: 200px;
@@ -78,8 +75,10 @@
     color: $extra-white-color;
     font-size: 26px;
     line-height: calc(42 / 26);
-    width: 360px;
-    
+
+    @media screen and (min-width:768px) {
+        width: 360px;}
+        
     @media screen and (min-width:1200px) {
         font-size: 44px;
         line-height: calc(60 / 44);
