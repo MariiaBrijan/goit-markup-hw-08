@@ -75,6 +75,7 @@
 }
 
 .projects__item {
+    display: flex;
     &:not(:last-child) {
     margin-bottom: 30px;
         }
@@ -105,7 +106,8 @@
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
     padding: 20px 24px;
-}
+    flex-grow: 1;
+    }
 
 .projects__title {
     margin-bottom: 10px;
@@ -139,12 +141,14 @@
     color: $extra-white-color;
     padding: 63px 24px;
 
-    transform: translateY(100%);
+    transform: translateY(101%);
     transition-property: transform;
     @extend %transitions;
 }
 
 .projects__link {
+    display: flex;
+    flex-direction: column;
     transition-property: box-shadow;
     @extend %transitions;
     
@@ -158,5 +162,6 @@
     &:focus .projects__overlay {
         transform: translateY(0);
     }
+        
 }
 
