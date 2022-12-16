@@ -613,9 +613,15 @@ p {
 }
 
 .header__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 1.1666666667;
+  font-size: 14px;
+  line-height: 1.1428571429;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -841,6 +847,11 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+}
+@media screen and (max-width: 767px) {
+  .benefits__title {
+    text-align: center;
+  }
 }
 
 .benefits__text {
@@ -1103,14 +1114,11 @@ p {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .footer__contacts {
-    margin-right: 165px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .footer__contacts {
     margin-right: 94px;

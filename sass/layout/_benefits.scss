@@ -59,6 +59,10 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $main-color;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;}
+
 }
 
 .benefits__text {
